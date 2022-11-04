@@ -109,7 +109,29 @@ showcase h1{
 div .science{
     margin: 15px;
     width: 400px;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-align: center;
+    border-radius: 15px;
     display: inline-block;
+    background-color: white;
+    opacity: 50%;
+}
+div .science:hover{
+    opacity: 100%;
+}
+.science li{
+    list-style-type: none;
+    transition: 0.4s;
+}
+.science li:hover{
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: blue;
+    transform: translateX(-0.8rem);
 }
 #courses img{
     width: 400px;
