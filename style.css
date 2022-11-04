@@ -102,7 +102,9 @@ showcase h1{
     margin-top: 5%;
     margin-bottom: 10px;
     text-align: center;
-    color: white;
+    color: black;
+    font-weight: bold;
+    background-color: white;
 }
 
 
@@ -120,6 +122,15 @@ div .science{
 }
 div .science:hover{
     opacity: 100%;
+}
+div .science h4{
+    color: #000;
+    font-size: 25px;
+}
+div .science p{
+    color: indianred;
+    font-weight: bold;
+    font-size: 19px;
 }
 .science li{
     list-style-type: none;
