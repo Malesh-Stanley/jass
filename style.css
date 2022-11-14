@@ -13,7 +13,7 @@ html{
     min-height: 30rem;
     opacity: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+  
     background-size: cover;
 }
 
@@ -52,7 +52,7 @@ nav ul li:hover{
     width: 80%;
     margin: auto;
     overflow: hidden;
-    margin-top: 4%;
+    margin-top: 1%;
 }
 
 .section h1{
