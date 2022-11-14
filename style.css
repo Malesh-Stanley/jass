@@ -69,8 +69,10 @@ nav ul li:hover{
     border-radius: 10px;
     width: 300px;
     padding: 5px;
+    margin-top: 20%;
     transition: 0.5s;
     opacity: 50%;
+    margin-left: 40%;
 }
 .section p:hover{
     transform: translateY(-0.5rem);
@@ -86,7 +88,7 @@ nav ul li:hover{
 }
 
 .features{
-    margin-top: 4%;
+    margin-top: 5%;
     margin-bottom: 2%;
 }
 
