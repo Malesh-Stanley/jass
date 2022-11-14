@@ -13,7 +13,7 @@ html{
     min-height: 30rem;
     opacity: 100%;
     background-repeat: no-repeat;
-  
+    background-position: center;
     background-size: cover;
 }
 
@@ -27,6 +27,7 @@ nav{
 nav ul{
 margin: 0;
 margin-left: 1.9rem;
+float: right;
 
 }
 
@@ -60,6 +61,7 @@ nav ul li:hover{
     font-size: 50px;
     text-align: center;
     line-height: 50px;
+    margin-top: 20%;
 }
 
 .section p{
@@ -69,7 +71,7 @@ nav ul li:hover{
     border-radius: 10px;
     width: 300px;
     padding: 5px;
-    margin-top: 20%;
+   
     transition: 0.5s;
     opacity: 50%;
     margin-left: 40%;
