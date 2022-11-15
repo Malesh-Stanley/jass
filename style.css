@@ -57,7 +57,7 @@ nav ul li:hover{
 }
 
 .section h1{
-    color: blue;
+    color: white;
     font-size: 50px;
     text-align: center;
     line-height: 50px;
@@ -71,10 +71,9 @@ nav ul li:hover{
     border-radius: 10px;
     width: 300px;
     padding: 5px;
-   
     transition: 0.5s;
     opacity: 50%;
-    margin-left: 40%;
+    margin-left: 30%;
 }
 .section p:hover{
     transform: translateY(-0.5rem);
@@ -123,10 +122,10 @@ div .science{
     border-radius: 15px;
     display: inline-block;
     background-color: white;
-    opacity: 50%;
 }
 div .science:hover{
-    opacity: 100%;
+    background-color: aquamarine;
+    border-radius: 0px;
 }
 div .science h4{
     color: #000;
@@ -200,12 +199,10 @@ div h3{
 div img{
     border-radius: 20px;
     width: 400px;
-    opacity: 60%;
     transition: 0.3s;
 }
 div img:hover{
     transform: translateY(-0.8rem);
-    opacity: 100%;
     padding: 5px 5px;
 }
 @media only screen and (max-width: 800px) {

@@ -24,12 +24,10 @@ div img{
     float: right;
     border-radius: 20px;
     width: 100px;
-    opacity: 60%;
     transition: 0.3s;
 }
 div img:hover{
     transform: translateY(-0.8rem);
-    opacity: 100%;
     padding: 5px 5px;
 }
 #speech{
